@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+    body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+    }
+
+    nav {
+        position: relative;
+        background-color: #ff7171;
+    }
+    nav ul{
+        font-size: 1.5rem;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    li {
+        padding: 15px;
+    }
+/* Start Child one */
+.child-one{
+    padding:12% 6%;
+}
+.child-one div{
+    padding-bottom: 60px;
+}
+.content-item{
+    margin-bottom: 10px;
+}
+.child-one h1{
+    text-transform:uppercase ;
+    letter-spacing: 1.5rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child-one p{
+        font-weight: 100;
+        line-height: 2rem;
+        letter-spacing: 1px;
+}
+
+.button button {
+    padding: 15px 100px; /* Padding for the button */
+    background-color: #ff7474;
+    color: #fff;
+    font-size: medium;
+    border: none;
+}
+
+/* End Child one */
+
+
+/* start child two */
+    .child-two{
+        background-image: url(/pexels-robin-stickel-70497.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+/* End child two*/
+
+
+
+/* s */
+
+    .container {
+        height: 100vh;
+        width:100%;
+        background: linear-gradient(90deg, hsl(53, 100%, 84%), hsl(312, 100%, 85%));
+        /* border: 5px solid red; */
+        display: flex;
+    }
+    .child-one{
+        height: 100%;
+        width:50%;
+        /* border: 5px double green; */
+    }
+    .child-two{
+        height: 100%;
+        width:50%;
+        /* border: 5px double black; */
+    }
+    .child-three{
+        display: flex;
+        height: 100%;
+        width:50%;
+        /* border: 5px double green; */
+    }
+    .child-four{
+        position: relative;
+        align-content: center ;
+        height: 100%;
+        width:50%;
+        /* border: 5px double black; */
+    }
+/* e */
+
+/* child-one */
+    /* .container .child-one{
+        height: inherit;
+        width: 50%;
+    }
+    .img-1,.img-2,.img-3{
+        padding: 1rem;
+        margin-top: 7%;
+    }
+    .img-1,.img-2{
+        padding-left: 8rem;
+    }
+ */
+    .img-1 img{
+        object-fit: cover;
+    }
+    .img-2 img{
+        object-fit: cover;
+    }
+    .img-3 img{
+        object-fit: cover;
+    }
+    
+    /* .img-3 {
+        float: right;
+      }
+      .img-1{
+        float: left;
+      } */
+      
+/* end child one */
+
+/* FUcked Up it's 03;53 AM in morning */
+
+
+/* Container two is coming me */
+
+.inone{
+    height: 100%;
+    width:50%;
+    /* border: 5px double green; */
+    /* background-color: #fb6565; */
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    padding: 16% 0;
+    /* flex-flow: row wrap-reverse; */
+}
+.intwo{
+    height: 100%;
+    width:50%;
+    /* border: 5px double green; */
+    /* background-color: #fb6565; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Box Begin */
+.box{
+    position: relative;
+    flex-wrap: wrap;
+    width: 70%;
+    max-width: 75%;
+    min-width: 75%;
+    height: 36%;
+    background-color: #fb6565;
+    /* border: 5px dotted green; */
+    align-content: space-between;
+    padding: 5%;
+}
+.box h1{
+    font-size: 3.2rem;
+    font-family: sans-serif;
+    letter-spacing: 1rem;
+    /* text-justify: distribute-all-lines; */
+}
+.box button{
+    background: none;
+    border: none;
+}
+.box p,button{
+    font-size: 1.2rem;
+}
+.box p,h1,button{
+    padding: 1rem;
+}
+
+
+/* Box End */
