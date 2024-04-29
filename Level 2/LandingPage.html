@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+      /* Common Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* Hero Content */
+.container {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.display-5 {
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.btn {
+  filter: brightness(90%);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  filter: brightness(100%);
+  transform: translateY(-2px);
+}
+/* Hero Content End */
+
+/* Features */
+#features {
+  color: #664d03;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  background-color: #343a40;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: #fff3cd;
+  text-shadow: 3px 3px 4px rgba(1, 1, 1, 0.5);
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
+
+.card ul li small {
+  color: #ffffff;
+  text-shadow: 3px 3px 4px rgba(1, 1, 1, 0.5);
+}
+/* End Features */
+
+/* Footer */
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: #000000; /* Changed font color to black */
+  padding: 50px 0;
+}
+
+.footer ul.nav li {
+  margin-right: 15px;
+}
+
+.footer h3 {
+  color: #333 !important;
+}
+
+.footer p {
+  color: #333 !important;
+}
+
+.footer .link-body-emphasis {
+  color: #ffc107;
+  transition: color 0.3s;
+}
+
+.footer .link-body-emphasis:hover {
+  color: beige;
+}
+/* Footer End */
+
+/* Footer End */
+
+    </style>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PGx Technologies</title>
+
+</head>
+<body>
+
+    <!-- Navbar Begin -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-weight: bolder;"><img src="pgxlogog.svg" alt="image of company logo named pgx" height="35"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#video-demo">Video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="ece.html">ECE Projects</a></li>
+                  <li><a class="dropdown-item" href="cse.html">CSE Projects</a></li>
+                  <li><a class="dropdown-item" href="eee.html">EEE Projects</a></li>
+                  <li><a class="dropdown-item" href="ai-proj.html">AI Projects</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="more.html">More</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="#contact">Contact</a>
+              </li>
+            </ul>
+             
+          </div>
+        </div>
+      </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Hero Begin -->
+    <div class="container col-xxl-8 px-4 py-5" id="home">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="herotop.jpeg" class="d-block mx-lg-auto img-fluid rounded shadow" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Innovation with Real-Time IoT Solutions</h1>
+          <p class="lead">At <b>PGX</b>, we specialize in delivering real-time IoT solutions that solve today's toughest problems. From optimizing energy usage to enhancing industrial processes, our innovative approach empowers businesses and individuals to achieve greater efficiency and productivity. Explore our cutting-edge solutions and unlock the potential of the Internet of Things.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="https://maps.app.goo.gl/i1Gnv2zUevZ7QASi8" target="_blank"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Location</button></a>
+            <a href="https://forms.gle/eKVHt5mC3BPeuBoF7" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg px-4" >Contact</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- Begin -->
+           
+       <!-- End -->
+        <!-- Demo Start -->
+        
+        <!-- Demo End -->
+      </div>
+
+    <!-- Hero End -->
+<br>
+      <!-- Video Section -->
+      <div class="container" id="video-demo">
+        <!-- Video Player -->
+        <div class="ratio ratio-16x9 mb-4">
+          <iframe src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" title="YouTube video" allowfullscreen=""></iframe>
+        </div>
+        
+        <!-- Description Card -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Innovation with Real-Time IoT Solutions</h5>
+            <p class="card-text">At PGX, we specialize in delivering real-time IoT solutions that solve today's toughest problems. From optimizing energy usage to enhancing industrial processes, our innovative approach empowers businesses and individuals to achieve greater efficiency and productivity. Explore our cutting-edge solutions and unlock the potential of the Internet of Things. <span style="color: #ff6600; font-style: italic;">Please note that this video is used for testing purposes on the website.</span></p>
+
+          </div>
+        </div>
+      </div>
+      
+      <!-- Video Section -->
+      <br>
+    <!-- Features Begin -->
+    <div class="container px-4 py-5">
+      <h2 class="pb-2 border-bottom" id="features">Features</h2>
+    
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('school.jpg'); background-size: cover;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white">
+              <img src="pgxlogog.svg" alt="Bootstrap" width="64" height="64" class="mx-auto">
+              <h3 class="pt-4 mb-4 display-6 lh-1 fw-bold">Final Year Projects</h3>
+              <ul class="d-flex flex-column align-items-center">
+                <li>
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small>For Students</small>
+                </li>
+                <li>
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <small>100+ Projects</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('coustem.jpeg'); background-size: cover; background-position: bottom top;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white">
+              <img src="pgxlogog.svg" alt="Bootstrap" width="64" height="64" class="mx-auto">
+              <h3 class="pt-4 mb-4 display-6 lh-1 fw-bold">Audrino Mini Projects</h3>
+              <ul class="d-flex flex-column align-items-center">
+                <li>
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small>For Students</small>
+                </li>
+                <li>
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <small>100+ Projects</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('Drown.jpg'); background-size: cover;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white">
+              <img src="pgxlogog.svg" alt="Bootstrap" width="64" height="64" class="mx-auto">
+              <h3 class="pt-4 mb-4 display-6 lh-1 fw-bold">Premium Projects</h3>
+              <ul class="d-flex flex-column align-items-center">
+                <li>
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                  <small>For Professionals</small>
+                </li>
+                <li>
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                  <small>50+ Projects</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- Testimonials Begin -->
+
+    
+      
+    <!-- Testimonials End -->
+    
+
+    
+    <!-- Footer Begin -->
+    <footer class="footer" id="contact">
+      <div class="container">
+          <!-- Social media links -->
+          <div class="row">
+              <div class="col-md-4">
+                  <ul class="nav justify-content-start list-unstyled d-flex" style="font-size: 2.5rem;">
+                      <li class="me-3"><a class="link-body-emphasis" href="#"><i class="fab fa-facebook"></i></a></li>
+                      <li class="me-3"><a class="link-body-emphasis" href="#"><i class="fab fa-instagram"></i></a></li>
+                      <li class="me-3"><a class="link-body-emphasis" href="#"><i class="fab fa-twitter"></i></a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <h3>About Us</h3>
+                  <p>We are a leading provider of innovative IoT solutions, dedicated to revolutionizing the way businesses and individuals interact with technology. Our mission is to empower our clients with cutting-edge products and services that drive efficiency, productivity, and sustainability.</p>
+              </div>
+              <div class="col-md-4">
+                  <h3>Contact Us</h3>
+                  <p>Email: info@example.com</p>
+                  <p>Phone: +1234567890</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+    
+
+    
+    <!-- Footer End -->
+
+    <!-- Froms Begin -->
+
+
+
+    <!-- Froms End -->
+
+    <!-- JavaScript Begin -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js" integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- JavaScript End -->
+</body>
+</html>

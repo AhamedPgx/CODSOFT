@@ -1,0 +1,26 @@
+
+.footer {
+    background-color: #343a40 !important; /* Dark background color */
+    color: #f8f9fa !important; /* Light text color */
+    padding: 20px 0;
+}
+
+.footer h3 {
+    color: #f8f9fa !important; /* Light text color */
+}
+
+.footer p, .footer ul {
+    color: #f8f9fa !important; /* Light text color */
+}
+
+.footer a {
+    color: #007bff !important; /* Blue link color */
+}
+
+.footer a:hover {
+    color: #0056b3 !important; /* Darker blue on hover */
+}
+
+nav{
+    background-color: bisque !important;
+}
